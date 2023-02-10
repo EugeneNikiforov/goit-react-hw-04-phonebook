@@ -1,0 +1,39 @@
+.participants {
+    // list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+    margin-top: 15px;
+
+    &Entry {
+        font-size: 18px;
+        // display: inline-block;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 20px;
+        color: rgb(4, 11, 105);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &Btn {
+        display: block;
+        width: 70px;
+        height: 25px;
+        font-size: 12px;
+        background-color: rgb(88, 56, 177);
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        // margin: 20px 0;
+        margin-left: 20px;
+
+        &:active {
+            background-color: rgb(255, 46, 210);
+            color: #fff;
+            transition: background 0.25s;
+        }
+    }
+}

@@ -1,0 +1,28 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 450px;
+    background-color: #f8f8f8;
+    margin-top: 40px;
+    border-radius: 5px;
+    padding: 0 20px;
+}
+
+.appHeader {
+    font-size: 23px;
+    display: inline-block;
+    // padding-left: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: rgb(88, 56, 177);
+}
+
+.appHeaderSec {
+    font-size: 23px;
+    display: inline-block;
+    // padding-left: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: rgb(88, 56, 177);
+}

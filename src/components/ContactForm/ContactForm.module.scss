@@ -1,0 +1,85 @@
+.contacts {
+    // display: flex;
+    // flex-direction: column;
+    // align-items: flex-start;
+    // width: 450px;
+    // background-color: #f8f8f8;
+    // margin-top: 40px;
+    border-radius: 5px;
+    // padding: 0 20px;
+
+    // &Header {
+    //     font-size: 23px;
+    //     display: inline-block;
+    //     // padding-left: 20px;
+    //     padding-top: 25px;
+    //     padding-bottom: 25px;
+    //     color: rgb(88, 56, 177);
+    // }
+
+    &InnerBlock {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        border-radius: 5px;
+        border: 1px solid rgb(88, 56, 177);
+        width: 410px;
+        background-color: rgb(88, 56, 177);
+        padding: 0 20px;
+    }
+
+    &Name {
+        font-size: 18px;
+        color: #fff;
+        padding: 10px 0 5px 0;
+    }
+
+    &Input {
+        display: inline-block;
+        width: 185px;
+        border: 2px solid rgb(88, 56, 177);
+        padding-left: 20px;
+    }
+
+    &Button {
+        display: block;
+        width: 120px;
+        height: 40px;
+        font-size: 14px;
+        background-color: #f8f8f8;
+        color: rgb(88, 56, 177);
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin: 20px 0;
+
+        &:active {
+            background-color: rgb(255, 46, 210);
+            color: #fff;
+            transition: background 0.25s;
+        }
+    }
+
+    // &Find {
+    //     font-size: 18px;
+    //     color: rgb(88, 56, 177);
+    //     padding-left: 20px;
+    //     padding-bottom: 10px;
+    // }
+
+    // &HeaderSec {
+    //     font-size: 23px;
+    //     display: inline-block;
+    //     // padding-left: 20px;
+    //     padding-top: 25px;
+    //     padding-bottom: 25px;
+    //     color: rgb(88, 56, 177);
+    // }
+
+    // &Finder {
+    //     display: inline-block;
+    //     width: 205px;
+    //     border: 2px solid rgb(88, 56, 177);
+    //     margin-left: 20px;
+    // }
+}
