@@ -6,13 +6,14 @@ import ContactList from './ContactList/ContactList';
 import css from './App.module.scss';
 
 export default function App() {
-  const [contacts, setContacts] = React.useState(() => {
+  const getLocalData = (key) => {
     const contactParsed = JSON.parse(localStorage.getItem(`contacts`));
     if (contactParsed) {
       return contactParsed;
     }
     return [];
-  });
+  };
+  const [contacts, setContacts] = React.useState(getLocalData);
   const [filter, setFilter] = React.useState("");
 
   // React.useEffect(() => {
