@@ -2,10 +2,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import css from './ContactList.module.scss';
 
-export default function ContactList({ filter, removeContact }) {
+export default function ContactList({ filterContact, removeContact }) {
   return (
     <>
-      {filter.map((contact) => {
+      {filterContact.map((contact) => {
         return (
           <li key={contact.id} className={css.participantsEntry}>
             <p>{contact.name}: <span>{contact.number}</span></p>
